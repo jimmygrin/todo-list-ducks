@@ -7,10 +7,14 @@ import TodoList from "./TodoList"
 
 function App() {
   return (
+   
     <Provider store={store}>
+      <div id="form">
       <TodoForm />
       <TodoList />
+      </div>
     </Provider>
+  
   )
 }
 

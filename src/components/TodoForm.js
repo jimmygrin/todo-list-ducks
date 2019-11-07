@@ -13,14 +13,16 @@ export default function(props) {
   }
 
   return (
-    <div>
+    <div id="container">
+      <h1>Things to do</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
+          placeholder="What do you need to do today?"
           onChange={e => setTodo(e.target.value)}
           value={todo}
         />
-        <button type="submit">Add Todo</button>
+        <button id="buttonform" type="submit">Submit</button>
       </form>
     </div>
   )

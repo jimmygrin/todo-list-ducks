@@ -27,7 +27,7 @@ code {
 
 #root {
   margin: auto;
-  
+
 }
 
 /* #container{
@@ -57,7 +57,7 @@ code {
 }
 
 #list {
-  font-family: Arial;
+  font-family: 'Courier New', Courier, monospace;
 }
 li {
   list-style: none;
@@ -84,6 +84,7 @@ h1 {
   width: 100px;
   font-size: 15px;
   align-items: center;
+  
   
 
  

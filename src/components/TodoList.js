@@ -6,7 +6,6 @@ export default function(props) {
 
   return (
     <div id="list">
-    
       <ul>
         {todos.map(todo => (
           <li
